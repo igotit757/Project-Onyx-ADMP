@@ -1,0 +1,15 @@
+@echo off
+msg * "Credits to igotit757" 
+msg * "Cmd Manual, You Can Put Url's, apps and Files."
+set /p input=
+if %input% == 1 goto ech
+:ech
+echo Typ enter to install ;
+echo %input%
+pause
+
+
+
+set _COMPAT_LAYER=RunAsInvoker
+ 
+Start %input%
